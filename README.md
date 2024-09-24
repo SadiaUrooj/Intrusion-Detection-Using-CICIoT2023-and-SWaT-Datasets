@@ -27,10 +27,6 @@ Logistic Regression was applied to classify 7 different attack types. The modelâ
   
 - **Classification Report (2 Classes)**: Performance improved significantly in binary classification (attack vs benign).
 
-- **Confusion Matrix**: 
-  - Figure 1: Confusion Matrix for 8 Classes.
-  - Figure 2: Confusion Matrix for 2 Classes.
-
 #### **Technique 2: Random Forest**
 The Random Forest model significantly improved classification accuracy.
 
@@ -38,9 +34,6 @@ The Random Forest model significantly improved classification accuracy.
   
 - **Classification Report (2 Classes)**: Showed high precision, recall, and F1-score for both classes.
 
-- **Confusion Matrix**:
-  - Figure 3: Confusion Matrix for 8 Classes.
-  - Figure 4: Confusion Matrix for 2 Classes.
 
 #### **Conclusion for CICIoT2023 Dataset**
 - **Logistic Regression**: Offers an accuracy of 83%, with some limitations in classifying certain attack types.
@@ -53,7 +46,7 @@ The logistic regression model was applied to detect anomalies in the SWaT datase
 
 - **Classification Report**: Showed good accuracy (95%) but a relatively high FP rate (7395).
   
-- **Confusion Matrix**: Figure 9 and 10 highlight areas where the model struggled.
+- **Confusion Matrix**: Highlight areas where the model struggled.
 
 #### **Technique 2: Random Forest**
 The Random Forest model was tested on the SWaT dataset, yielding the best performance metrics:
@@ -67,7 +60,7 @@ The KNN model was also applied to the SWaT dataset.
 
 - **Classification Report**: Achieved an accuracy of 94%, with a lower FP rate (2878) than Logistic Regression.
   
-- **Confusion Matrix**: Figure 13 and 14 demonstrate KNN's moderate performance.
+- **Confusion Matrix**: Demonstrate KNN's moderate performance.
 
 #### **Conclusion for SWaT Dataset**
 - **Logistic Regression**: Offers decent performance with 95% accuracy, but struggles with high false positive rates.
